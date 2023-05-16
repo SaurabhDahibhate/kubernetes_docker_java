@@ -1,13 +1,22 @@
-# Docker-Java-kubernetes-project
+# docker-Java-kubernetes-project
 Deploying Java Applications with Docker and Kubernetes
 
-Credit: https://github.com/danielbryantuk/oreilly-docker-java-shopping/
+Instructions for building the website:
 
+Product catalogue
+    1. Product catalogue is writen in Java version 8
+    2. Works on port 8020
+    3. To install the project use Maven clean install
+    4. To start the project use the fallowing command '["java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar","server"]'
 
-![logo of project](https://user-images.githubusercontent.com/103496926/211329843-62fd4ffb-1129-4c3a-9f9b-ca2d4b40efa4.png)
+Shopfront
+    1. Product catalogue is writen in Java version 8
+    2. Works on port 8010
+    3. To install the project use Maven clean install
+    4. To start the project use the fallowing command '["java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar","server"]' 
 
-The workflow of the project is going to be like this in the below image ⬇️⬇️
-
-![workflow of project logo](https://user-images.githubusercontent.com/103496926/211329892-bc005b89-9975-44cc-9bb9-88d55ce5a22a.png)
-
-The whole blog about this project is Published on "Kubesimplify". Here, You can check : https://blog.kubesimplify.com/deploying-java-application-using-docker-and-kubernetes-devops-project#comments-list
+ Stock manager
+    1. Product catalogue is writen in Java version 8
+    2. Works on port 8030
+    3. To install the project use Maven clean install
+    4. To start the project use the fallowing command '["java","-Djava.security.egd=file:/dev/./urandom","-jar","app.jar","server"]'
